@@ -1,0 +1,18 @@
+
+<suite name="Suite1" verbose="1" >
+    <test name="RunTest1" >
+        <classes>
+            <class name="testpkj.Test1" />
+        </classes>
+    </test>
+
+    <test name="RunTest2">
+        <classes>
+            <class name="testpkj.Test2"/>
+            <methods>
+                <include name="tst1" />
+                <include name="tst4" />
+            </methods>
+        </classes>
+    </test>
+</suite>
